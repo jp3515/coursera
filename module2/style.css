@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+}
+body,p {
+    margin: 0;
+    padding: 0;
+  }
+  p{
+    text-align: justify;
+  }
+  .main{
+    margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 50px;
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'GFS Didot', serif;
+
+  }
+  .section{
+    background-color: #DBE7C9;
+  }
+
+  body:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .small{
+    width: 80px;
+    float: right;
+    padding: 3px;
+    
+  }
+  #one{
+    background-color: #FF6868;
+    
+  }
+  #two{
+    background-color: #FF004D;
+  }
+  #three{
+    background-color: #FF9800;
+  }
+  div.small p{
+    text-align: center;
+    color: white;
+    
+    
+  }
+  .matter{
+    padding: 25px; /* Add padding as needed */
+  }
+  @media(min-width:992px){
+    .section {
+    width: calc(33.33% - 20px); 
+    margin: 10px; 
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid;
+  }
+  
+  }
+  @media(min-width:768px )and (max-width:991px){
+    #section1,#section2 {
+    width: calc(50% - 20px); 
+    margin: 10px; 
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid;
+  }
+  #section3{
+    width: calc(100% - 20px); 
+    margin: 10px; 
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid;
+
+  }
+
+  }
+  @media(max-width:767px){
+    .section {
+    width: calc(100% - 20px); 
+    margin: 10px; 
+    float: left;
+    box-sizing: border-box;
+    border: 0.5px solid;
+  }
+
+  }
